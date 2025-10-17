@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio Amine</title>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Accueil</a></li>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#work">Travail</a></li>
+      <li><a href="#resume">CV</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h1>Bienvenue sur mon portfolio</h1>
+      <img src="assets/mon_image.jpg" alt="Photo de présentation" width="400" />
+      <p>Je m'appelle Med Amine, développeur web passionné, voici un aperçu de mon travail.</p>
+      <video controls>
+        <source src="assets/mon_video.mp4" type="video/mp4" />
+      </video>
+    </section>
+
+    <section id="about">
+      <h2>À propos de moi</h2>
+      <p>Voici quelques informations clés sur mon parcours et mes compétences :</p>
+      <ul>
+        <li>Formation : Diplômé en informatique</li>
+        <li>Compétences : HTML, CSS, JavaScript, Java</li>
+        <li>Langues : Arabe (natif), Francais (courant) , Anglais (notions)</li>
+      </ul>
+    </section>
+
+    <section id="work">
+      <h2>Mes projets</h2>
+
+      <article>
+        <h3>Application de gestion de matériels informatiques</h3>
+        <p>Développement d'une application web pour organiser et suivre les matériels informatiques.</p>
+      </article>
+
+      <article>
+        <h3>Site pour un restaurant</h3>
+        <p>Création d’un site présentant les services d’un restaurant.</p>
+      </article>
+
+      <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Projet</th>
+            <th>Technologies utilisées</th>
+            <th>Année</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Gestion des matériels informatiques</td>
+            <td>HTML, CSS, JavaScript, React</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>Site pour un restaurant</td>
+            <td>HTML, CSS, Bootstrap</td>
+            <td>2023</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="resume">
+      <h2>Mon CV</h2>
+      <p>Vous pouvez télécharger mon CV en cliquant ci-dessous :</p>
+      <a href="assets/cv.pdf" download>Télécharger mon CV</a>
+    </section>
+
+    <section id="contact">
+      <h2>Contactez-moi</h2>
+      <form action="#" method="post">
+        <label for="name">Nom :</label><br />
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email :</label><br />
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="message">Message :</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br />
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Med Amine Lhioui - Tous droits réservés</p>
+  </footer>
+
+</body>
+</html>
