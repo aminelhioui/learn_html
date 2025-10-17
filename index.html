@@ -1,14 +1,27 @@
 <!DOCTYPE html>
+<!-- Déclaration du type de document : HTML5 -->
 <html lang="fr">
+<!-- Début du document HTML avec langue française -->
+
 <head>
+  <!-- Section "head" : contient les métadonnées et le titre du site -->
   <meta charset="UTF-8" />
+  <!-- Encodage des caractères en UTF-8 pour gérer tous les caractères spéciaux -->
+  
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Permet au site d'être responsive : s'adapte à toutes les tailles d'écran -->
+
   <title>Portfolio Amine</title>
+  <!-- Titre du site affiché dans l'onglet du navigateur -->
 </head>
+
 <body>
+  <!-- Début du corps de la page -->
 
   <nav>
+    <!-- Section de navigation principale -->
     <ul>
+      <!-- Liste non ordonnée pour le menu de navigation -->
       <li><a href="#home">Accueil</a></li>
       <li><a href="#about">À propos</a></li>
       <li><a href="#work">Travail</a></li>
@@ -18,19 +31,31 @@
   </nav>
 
   <main>
+    <!-- Contenu principal du site -->
+
     <section id="home">
+      <!-- Section "Accueil" -->
       <h1>Bienvenue sur mon portfolio</h1>
+      <!-- Titre principal de la page d'accueil -->
+
       <img src="assets/mon_image.jpg" alt="Photo de présentation" width="400" />
+      <!-- Image de présentation avec texte alternatif et largeur fixe -->
+
       <p>Je m'appelle Med Amine, développeur web passionné, voici un aperçu de mon travail.</p>
+      <!-- Introduction personnelle -->
+
       <video controls>
         <source src="assets/mon_video.mp4" type="video/mp4" />
+        <!-- Vidéo avec contrôles intégrés (play, pause, volume) -->
       </video>
     </section>
 
     <section id="about">
+      <!-- Section "À propos de moi" -->
       <h2>À propos de moi</h2>
       <p>Voici quelques informations clés sur mon parcours et mes compétences :</p>
       <ul>
+        <!-- Liste des informations importantes -->
         <li>Formation : Diplômé en informatique</li>
         <li>Compétences : HTML, CSS, JavaScript, Java</li>
         <li>Langues : Arabe (natif), Francais (courant) , Anglais (notions)</li>
@@ -38,20 +63,25 @@
     </section>
 
     <section id="work">
+      <!-- Section "Travail / Projets" -->
       <h2>Mes projets</h2>
 
       <article>
+        <!-- Premier projet -->
         <h3>Application de gestion de matériels informatiques</h3>
         <p>Développement d'une application web pour organiser et suivre les matériels informatiques.</p>
       </article>
 
       <article>
+        <!-- Deuxième projet -->
         <h3>Site pour un restaurant</h3>
         <p>Création d’un site présentant les services d’un restaurant.</p>
       </article>
 
       <table border="1" cellpadding="5" cellspacing="0">
+        <!-- Tableau pour résumer les projets -->
         <thead>
+          <!-- En-tête du tableau -->
           <tr>
             <th>Projet</th>
             <th>Technologies utilisées</th>
@@ -59,6 +89,7 @@
           </tr>
         </thead>
         <tbody>
+          <!-- Contenu du tableau -->
           <tr>
             <td>Gestion des matériels informatiques</td>
             <td>HTML, CSS, JavaScript, React</td>
@@ -74,29 +105,38 @@
     </section>
 
     <section id="resume">
+      <!-- Section "CV" -->
       <h2>Mon CV</h2>
       <p>Vous pouvez télécharger mon CV en cliquant ci-dessous :</p>
       <a href="assets/cv.pdf" download>Télécharger mon CV</a>
+      <!-- Lien pour télécharger le CV en PDF -->
     </section>
 
     <section id="contact">
+      <!-- Section "Contact" -->
       <h2>Contactez-moi</h2>
       <form action="#" method="post">
+        <!-- Formulaire de contact -->
         <label for="name">Nom :</label><br />
         <input type="text" id="name" name="name" required /><br />
+        <!-- Champ texte obligatoire pour le nom -->
 
         <label for="email">Email :</label><br />
         <input type="email" id="email" name="email" required /><br />
+        <!-- Champ email obligatoire avec validation -->
 
         <label for="message">Message :</label><br />
         <textarea id="message" name="message" rows="5" required></textarea><br />
+        <!-- Zone de texte pour le message, obligatoire -->
 
         <button type="submit">Envoyer</button>
+        <!-- Bouton pour envoyer le formulaire -->
       </form>
     </section>
   </main>
 
   <footer>
+    <!-- Pied de page -->
     <p>© 2025 Med Amine Lhioui - Tous droits réservés</p>
   </footer>
 
